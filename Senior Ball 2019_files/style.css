@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
+@font-face {
+    font-family: 'Cormorant SC', serif;
+}
+
+h3{
+  font-family: 'Cormorant SC', serif;
+  font-size: 3vw;
+}
+
+body {
+    font-family: 'Raleway', sans-serif
+}
+
+b {
+    font-weight: 1200;
+}
+
+.row {
+  word-wrap: break-word;
+}
+
+#logo {
+  margin-top: 15px;
+  margin-bottom: -25px;
+}
+
+
+#title {
+  font-family: 'Cormorant SC', serif;
+  font-weight: bold;
+  font-size: 7vw;
+  padding-top: 0px;
+}
+
+
+#date {
+  font-family: 'Raleway', serif
+  font-weight: 300;
+  font-size: 2vw;
+}
+
+
+#time {
+  font-family: 'Raleway', serif
+  font-weight: 300;
+  font-size: 2vw;
+}
+
+/* intro */
+.bg-1 {
+	  background-color: #3c3a3b;
+    /* background-image: url("sparkle.png"); */
+    background-image: url("ferriswheel1.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    
+    color: #ffffff;
+    height: auto;
+
+}
+
+/* about */
+.bg-2 {
+    background-color: #2f2f2f;
+    /* background-image: url("mask1.jpg"); */
+    background-image: url("balloons1.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    
+    color: #ffffff;
+    height: auto;
+
+}
+
+/* ticketing */
+.bg-3 {
+    background-color: #3c3a3b;
+    /* background-image: url("crystal1.jpg"); */
+    background-image: url("tarotmagic2.jpg");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    
+    color: #ffffff;
+    height: auto;
+
+}
+
+/* logistics */
+.bg-4 {
+    background-color: #2f2f2f;
+    /* background-image: url("lights1.jpg"); */
+    background-image: url("carnival1.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    
+    color: #ffffff;
+    height: auto;
+
+}
+
+/* refreshments */
+.bg-5 {
+
+    background-color: #3c3a3b;
+    /* background-image: url("glass1.jpg"); */
+    background-image: url("candyapples1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    height: auto;
+
+}
+
+/* attire */
+.bg-6 {
+    background-color: #2f2f2f;
+    /* background-image: url("champagne.jpg"); */
+    background-image: url("lanterntent1.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    
+    color: #ffffff;
+    height: auto;
+
+}
+
+/* committee */
+.bg-7 {
+    background-color: #3c3a3b;
+    /* background-image: url("silverlights.jpg"); */
+    background-image: url("pastellanterns1.jpg");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    
+    color: #ffffff;
+    height: auto;
+
+}
+
+/* footer */
+.bg-8 {
+    background-color: #2f2f2f;
+    /* background-image: url("flowers1.jpg"); */
+    background-image: url("ferriswheel1.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+    background-size: cover;
+    color: #ffffff;
+    height: auto;
+    /*color: #f0eeef; */ /* off-white */
+}
+
+.bg-9 {
+    background-color: #3c3a3b; /* dark lavender */
+    /* color: #c6b5ae; */ /* cream */
+    color: #b3a9a8;
+
+}
+
+.bg-10 {
+    background-color: #b3a9a8; /* grey */
+    color: #3c3a3b;
+}
+
+
+.bg-11 {
+    background: linear-gradient(to bottom left, #887f76, #b5aaa8) ; /* dark lavender to grey gradient */
+    color: #3c3a3b;
+}
+
+.bg-12 {
+  background: 
+    /* top, transparent cream, faked with gradient */ 
+    linear-gradient(
+      to top left,
+
+      rgba(179, 169, 168, 0.1 ), 
+      rgba(179, 169, 168, 0.05 ),
+      rgba(179, 169, 168, 0 )
+    ),
+    /* bottom, image */
+    #3c3a3b;
+  color: #b3a9a8 ;
+}
+
+.bg-13 {
+    background-color: #2f2f2f;
+    background-image: url("lace.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    
+    color: #ffffff;
+    height: auto;
+
+}
+
+#circle {
+  border: 3px solid #fff;
+}
+
+.container-title {
+    padding-top: 125px;
+    padding-bottom: 200px;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.container-fluid p, .container-title p {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container-fluid ul, .container-title ul {
+    text-align: left;
+}
+
+.container-fluid ol, .container-title ol {
+    text-align: left;
+}
+
+.navbar {
+    font-family: 'Cormorant SC', sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    color: #3c3a3b;
+    background-color: #fff;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    opacity: 1;
+
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+  /*color: #c5a286; */ /* beige gold */
+  color: #efa459; /* gold */
+
+  
+}
+
+a:hover {
+  text-decoration: none;
+  color: #efefef;
+}
+
+.navbar-nav li a:hover {
+    color: black !important;
+}
+
+.container {
+    position: relative;
+}
+
+.photos-committee {
+  padding-top: 50px;
+}
+
+.photos-committee img {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin-bottom: 50px;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    color: red;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.container:hover img {
+    opacity: .3;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
